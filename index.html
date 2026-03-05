@@ -1778,7 +1778,7 @@
             <div className="detail-page">
                 <div className="detail-hero" style={{background: `linear-gradient(135deg, ${c1}10, ${c2}06)`}}>
                     <div className="section-container">
-                        <button className="detail-back" onClick={onBack}>← Back to Projects</button>
+                        <button className="detail-back" onClick={onBack}>← 프로젝트 목록</button>
 
                         <div className="detail-hero-top">
                             <div className="detail-phone">
@@ -1824,7 +1824,7 @@
                         <div className="detail-section">
                             <div className="detail-section-title">
                                 <span className="detail-section-dot" style={{background: grad}}></span>
-                                App Screenshots
+                                앱 스크린샷
                             </div>
                             <div className="detail-gallery">
                                 {project.images.map((img, i) => (
@@ -1842,7 +1842,7 @@
                     <div className="detail-section">
                         <div className="detail-section-title">
                             <span className="detail-section-dot" style={{background: grad}}></span>
-                            Performance Metrics
+                            프로젝트 성과
                         </div>
                         <div className="detail-metrics">
                             {project.achievements.map((a, i) => (
@@ -1859,7 +1859,7 @@
                     <div className="detail-section">
                         <div className="detail-section-title">
                             <span className="detail-section-dot" style={{background: grad}}></span>
-                            Key Implementations
+                            주요 구현 사항
                         </div>
                         <div className="detail-highlights">
                             {project.highlights.map((h, i) => (
@@ -1876,7 +1876,7 @@
                     <div className="detail-section">
                         <div className="detail-section-title">
                             <span className="detail-section-dot" style={{background: grad}}></span>
-                            Tech Stack
+                            기술 스택
                         </div>
                         <div className="detail-tech">
                             {project.tech.map((t, i) => (
@@ -2113,13 +2113,13 @@
                     <div className="nav-inner">
                         <div className="logo" onClick={goBack}>EUYTAE LEE</div>
                         {selectedProject !== null ? (
-                            <button className="nav-back" onClick={goBack}>← Portfolio</button>
+                            <button className="nav-back" onClick={goBack}>← 포트폴리오</button>
                         ) : (
                             <ul className="nav-links">
                                 <li><a className="nav-link" onClick={() => scrollTo('home')}>Home</a></li>
                                 <li><a className="nav-link" onClick={() => scrollTo('projects')}>Projects</a></li>
                                 <li><a className="nav-link" onClick={() => scrollTo('tech')}>Skills</a></li>
-                                <li><a className="nav-link" onClick={() => scrollTo('contact')}>Contact</a></li>
+                                <li><a className="nav-link" onClick={() => scrollTo('contact')}>연락처</a></li>
                             </ul>
                         )}
                     </div>
@@ -2182,7 +2182,7 @@
                         <div className="section-header fade-in">
                             <div>
                                 <div className="section-tag">Portfolio</div>
-                                <h2 className="section-title">Selected<br/>Projects</h2>
+                                <h2 className="section-title">프로젝트<br/>포트폴리오</h2>
                             </div>
                             <p className="section-desc">
                                 핀테크 · 커머스 · 소셜 · 크로스플랫폼 등 다양한 도메인에서 기술적 문제를 해결하고 비즈니스 가치를 만들어낸 프로덕션 프로젝트입니다.
@@ -2235,7 +2235,7 @@
                         <div className="section-header fade-in">
                             <div>
                                 <div className="section-tag">Expertise</div>
-                                <h2 className="section-title">Technical<br/>Skills</h2>
+                                <h2 className="section-title">기술<br/>스택</h2>
                             </div>
                             <p className="section-desc">
                                 Kotlin/Java 네이티브부터 Flutter 크로스플랫폼, 금융보안 SDK까지
@@ -2266,7 +2266,7 @@
                     <div className="section-container">
                         <div className="section-header-full fade-in">
                             <div className="section-tag">Get In Touch</div>
-                            <h2 className="section-title">Contact</h2>
+                            <h2 className="section-title">연락처</h2>
                         </div>
                         <div className="contact-grid">
                             <a href="mailto:dmlxo62@naver.com" className="contact-card fade-in">
